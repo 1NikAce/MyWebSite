@@ -1,0 +1,271 @@
+
+:root {
+    --green: #000000;
+    --black: #000000;
+    --blue: #000000;
+}
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400');
+@media (prefers-color-scheme: dark) {
+    :root {
+        --black: #ffffff;
+        --blue: #496fff;
+    }
+
+    body {
+        background: rgb(0, 0, 0);
+    }
+}
+
+.main {
+    margin: 0 auto 80px;
+    width: 984px;
+}
+
+@media all and (max-width: 767px) {
+    .main {
+        width: auto;
+        margin: 0 8px 40px;
+    }
+}
+
+.header {
+    padding-top: 49px;
+    display: flex;
+    align-items: center;
+}
+
+@media all and (max-width: 767px) {
+    .header {
+        padding-top: 32px;
+    }
+}
+
+.header__title {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+}
+
+.header__label {
+    margin-left: 6px;
+}
+
+.header__title--tilda {
+    color: #347ABB;
+}
+
+.header__title--label {
+    color: var(--black);
+}
+
+.header__title--accident {
+    color: var(--green);
+    margin-left: 2px;
+}
+
+.list {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 767px) {
+    .list {
+        margin-top: 32px;
+    }
+}
+
+.md-list > li {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 31px;
+    color: #ffffff;
+
+    word-break: break-all;
+}
+
+.md-list > li + li {
+    margin-top: 24px;
+    color: #ffffff
+}
+
+.md-list > li:before {
+    content: "";
+    margin-left: 28px;
+    color: #347ABB;
+}
+
+.md-list > li > ul > li {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 2;
+    color: #ffffff;
+
+    margin-top: 8px;
+
+    word-break: break-word;
+}
+
+.md-list > li > ul > li:before {
+    content: "+";
+    margin-left: 0px;
+    color:#BB3434;
+}
+
+.md-list > li > ul {
+    margin-left: 28px;
+    margin-top: 16px;
+}
+
+.md-list__hint {
+    color: #BB3434;
+}
+
+.md-list__splash-separator {
+    margin: 0 0.4em;
+    color: #BB3434;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 600px;
+    margin-top: -353px;
+
+
+}
+
+@media all and (max-width: 767px) {
+    .avatar {
+        display: none;
+    }
+}
+
+.avatar__image {
+    width: 296px;
+    height: 297px;
+}
+
+.avatar__label {
+    font-family: Space Mono;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+    margin-top: 40px;
+
+    color: var(--black);
+
+    white-space: nowrap;
+}
+
+.avatar__quote {
+    font-family: Space Mono;
+    font-style: normal;
+    color: #BB3434;
+}
+
+.avatar__slash {
+    font-family: Space Mono;
+    font-style: normal;
+    color: #347ABB;
+    margin-left: -2px;
+}
+
+.md-list__link {
+    color: var(--black);
+    text-decoration: none;
+    transition: all .2s;
+    color: #347ABB;
+    margin-top: 58px;
+    
+}
+
+.md-list__link:hover,
+.md-list__link:focus {
+    color: #ffffff;
+    background: #347ABB;
+}
+
+.md-list__link:hover > .md-list__hint,
+.md-list__link:focus  > .md-list__hint {
+    transition: all .2s;
+    color: #ffffff;
+}
+.md-list_link {
+    color: #347ABB;
+    margin-top: 58px;
+}
+.SSS {
+    font-size: 21.5px;
+    margin-top: -25px;
+    margin-left: 88px;
+}
+.ggg {
+    font-size: 21.5px;
+    margin-left: 150px;
+    margin-top: -30px;
+}
+.avatar__quotee {
+    font-family: Space Mono;
+    font-style: normal;
+    color:#BB3434;
+}
+.last_text {
+    font-family: Space Mono;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 96px;
+    margin-top: 58px;
+
+}
+.md-list_link {
+    font-family: Space Mono;
+    font-style: normal;
+    color: #BB3434;
+    font-size: 24px;
+    margin-left: 117.5px;
+    margin-top: 58px;
+
+}
+.last_text2 {
+    font-family: Space Mono;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 80.7px;
+    margin-top: 10px;
+}
+.md-list_link:hover,
+.md-list_link:focus {
+    color: #ffffff;
+    background: #BB3434;
+}
+
+.md-list_link:hover > .md-list__hint,
+.md-list_link:focus  > .md-list__hint {
+    transition: all .2s;
+    color: #BB3434;
+}
+.last_text3 {
+    font-family: Space Mono;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 22px;
+    margin-left: 162.5px;
+    margin-top: 2.5px;
+}
+.mne_len_added_many_tegs {
+    font-family: Space Mono;
+    font-style: normal;
+    color:#ffffff;
+}
